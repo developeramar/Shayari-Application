@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708974971403",
+    "project_id": "andaje-shayarana",
+    "storage_bucket": "andaje-shayarana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708974971403:android:9adf03184f1b9cda14150e",
+        "android_client_info": {
+          "package_name": "com.andajeshayarana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708974971403-jfjg948qgv3rjd79tcv7h2fcrrgdfpi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy2sDoQzUrZNQhFUuoBmvmYSXAB7MlnPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708974971403-jfjg948qgv3rjd79tcv7h2fcrrgdfpi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

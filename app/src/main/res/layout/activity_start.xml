@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newimg"
+    tools:context=".start_Activity">
+
+
+    <ImageView
+        android:id="@+id/tvone"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        android:src="@drawable/andaje_0ne"
+        android:contentDescription="TODO" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+
+
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AB453C3C"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="50dp">
+
+            <TextView
+                android:id="@+id/tvstart"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="Start"
+                android:textColor="#F839DAC1"
+                android:textSize="35sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AB453C3C"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="50dp">
+
+            <TextView
+                android:id="@+id/share_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="Share"
+                android:fontFamily="@font/almendra_sc"
+                android:textColor="#F839DAC1"
+                android:textSize="35sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AB453C3C"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="50dp">
+
+            <TextView
+                android:id="@+id/btn_rate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="rate"
+                android:fontFamily="@font/almendra_sc"
+                android:textColor="#F839DAC1"
+                android:textSize="35sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AB453C3C"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="50dp">
+
+            <TextView
+                android:id="@+id/btn_exit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="exit"
+                android:fontFamily="@font/almendra_sc"
+                android:textColor="#F839DAC1"
+                android:textSize="35sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="MEDIUM_RECTANGLE"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

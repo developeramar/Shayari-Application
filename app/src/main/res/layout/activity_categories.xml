@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/newimg"
+    tools:context=".Categories_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="100dp">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <TextView
+                    android:id="@+id/motivation_1"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="20dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/gradient_new"
+                    android:text="Motivational"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+
+                    android:drawableRight="@drawable/xyztwo" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+<!--                <TextView-->
+<!--                    android:id="@+id/memes"-->
+
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="160sp"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginTop="2dp"-->
+<!--                    android:layout_marginEnd="20dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_marginBottom="2dp"-->
+<!--                    android:background="@drawable/gradient_new"-->
+<!--                    android:text="Memes"-->
+<!--                    android:paddingRight="20dp"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="25sp"-->
+<!--                    android:textStyle="bold"-->
+
+<!--                    android:drawableRight="@drawable/memess" />-->
+
+<!--                <Space-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="15dp"/>-->
+
+
+
+                <TextView
+                    android:id="@+id/tvlove"
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/gradient_new"
+                    android:gravity="center"
+                    android:text="Love"
+                    android:drawableRight="@drawable/heart"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+                <TextView
+
+                    android:id="@+id/tvRomantic"
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/gradient_new"
+                    android:gravity="center"
+                    android:text="Romantic"
+                    android:drawableRight="@drawable/romantic"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+                <TextView
+
+                    android:id="@+id/devotional_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/gradient_new"
+                    android:drawableRight="@drawable/devoti"
+                    android:gravity="center"
+                    android:paddingRight="20dp"
+                    android:text="Devotional"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+
+                <TextView
+
+                    android:id="@+id/bewfai"
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/gradient_new"
+                    android:gravity="center"
+                    android:text="Bewfai"
+                    android:drawableRight="@drawable/bewfa"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+
+                <TextView
+
+                    android:id="@+id/diolog"
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/gradient_new"
+                    android:gravity="center"
+                    android:text="Dialog"
+                    android:drawableRight="@drawable/dialog"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+                <TextView
+
+                    android:id="@+id/feelings"
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/gradient_new"
+                    android:gravity="center"
+                    android:text="Feelings"
+                    android:drawableRight="@drawable/feeling"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+                <TextView
+
+                    android:id="@+id/good_morning"
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/gradient_new"
+                    android:gravity="center"
+                    android:text="Good morning"
+                    android:drawableRight="@drawable/sunrise"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+
+
+                <TextView
+
+                    android:id="@+id/goodnight"
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/gradient_new"
+                    android:gravity="center"
+                    android:text="Good night"
+                    android:drawableRight="@drawable/sunset"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
